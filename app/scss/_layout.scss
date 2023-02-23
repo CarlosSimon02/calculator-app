@@ -78,6 +78,9 @@
         padding: calc(22px + (30 - 22) * ((100vw - 375px) / (588 - 375)));
         font-size: calc(2.5rem + (56 - 40) * ((100vw - 375px) / (588 - 375)));
         text-align: right;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
 
         @media (min-width: 588px) {
             font-size: 3.5rem;
