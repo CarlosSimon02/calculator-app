@@ -278,6 +278,9 @@ html {
   padding: calc(22px + 8 * (100vw - 375px) / 213);
   font-size: calc(2.5rem + 16 * (100vw - 375px) / 213);
   text-align: right;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 @media (min-width: 588px) {
   .calc__screen {
